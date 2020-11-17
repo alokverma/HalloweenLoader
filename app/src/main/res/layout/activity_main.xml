@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.akki.halloweenloader.HalloweenLoader
+        android:id="@+id/loader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:halloween_loader_animation_duration="3000"
+        app:halloween_loader_fifth_layer_color="#50305b"
+        app:halloween_loader_fourth_layer_color="#7d1a4e"
+        app:halloween_loader_inner_most_color="#fcf6a8"
+        app:halloween_loader_radius="500"
+        app:halloween_loader_second_layer_color="#f8c154"
+        app:halloween_loader_stroke="10dp"
+        app:halloween_loader_third_layer_color="#f37a51"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
