@@ -1,6 +1,11 @@
 # HalloweenLoader
 This is a custom loader that you can use in your android project
 
+ # Demo 
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/7018540/99365949-efbdaa00-28dd-11eb-9a24-c7e99af26dc1.gif" width="350" title="HalloweenLoader">
+  </p>
+
 # Build
 
 Step 1. Add the JitPack repository to your build file
@@ -48,7 +53,4 @@ you can call showProgress() method to display the loader and hideProgress() meth
 	  loader.hideProgress()
 	  
   
- # Demo 
-  <p align="center">
-  <img src="https://user-images.githubusercontent.com/7018540/99365949-efbdaa00-28dd-11eb-9a24-c7e99af26dc1.gif" width="350" title="HalloweenLoader">
-  </p>
+
